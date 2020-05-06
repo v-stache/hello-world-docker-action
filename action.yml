@@ -12,6 +12,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    name: 'octocat'
+    name: 'octocat2'
   args:
     - ${{inputs.who-to-greet}}
