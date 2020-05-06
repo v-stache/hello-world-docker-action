@@ -6,7 +6,7 @@ on:
   push:
     branches: [ master ]
     paths: 
-      - .github/workflows/relative path.yml
+    - '.github/workflows/relative path.yml'
 
 jobs:
   hello_world_job:
