@@ -16,3 +16,4 @@ runs:
     testEnv2: 'test12'
   args:
     - ${{inputs.who-to-greet}}
+    - 'foo'
