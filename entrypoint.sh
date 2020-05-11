@@ -1,12 +1,13 @@
 #!/bin/sh -l
 echo "Hello $1"
 echo "Second arg $2"
-if [ "$2" -eq "test" ]; then
+if [ "$2" == "test" ]
+then
     echo "game over"
     exit 1
 else
     echo "good"
-fi;
+fi
 time=$(date)
 echo "::set-output name=time::$time"
 printenv
