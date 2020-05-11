@@ -17,4 +17,4 @@ runs:
   args:
     - ${{inputs.who-to-greet}}
     - 'foo'
-  post-entrypoint: 'cleanup.sh'
+  post-entrypoint: '/cleanup.sh'
