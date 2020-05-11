@@ -17,4 +17,4 @@ runs:
   args:
     - ${{inputs.who-to-greet}}
     - 'test'
-  post-entrypoint: '/cleanup.sh'
+  post-entrypoint: '/cleanup.sh' # https://github.com/v-stache/hello-world-docker-action/runs/663579677?check_suite_focus=true
