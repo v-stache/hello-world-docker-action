@@ -11,3 +11,5 @@ fi
 time=$(date)
 echo "::set-output name=time::$time"
 printenv
+
+echo $GITHUB_WORKSPACE

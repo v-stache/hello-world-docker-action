@@ -16,5 +16,5 @@ runs:
     testEnv2: 'test12'
   args:
     - ${{inputs.who-to-greet}}
-    - 'test'
+    - 'test2'
   post-entrypoint: '/cleanup.sh' # https://github.com/v-stache/hello-world-docker-action/runs/663579677?check_suite_focus=true
