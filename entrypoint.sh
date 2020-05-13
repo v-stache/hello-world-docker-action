@@ -13,3 +13,4 @@ echo "::set-output name=time::$time"
 printenv
 
 echo $GITHUB_WORKSPACE
+echo "new file context" > "$GITHUB_WORKSPACE/foo.txt"

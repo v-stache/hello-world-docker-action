@@ -20,3 +20,5 @@ jobs:
           who-to-greet: 'starain2'
       - name: Get the output time
         run: echo "The time was ${{steps.hello.outputs.time}}"
+      - name: check files
+        run: ls -R
