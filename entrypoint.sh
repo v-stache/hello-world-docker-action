@@ -15,4 +15,5 @@ printenv
 echo $GITHUB_WORKSPACE
 echo $PWD
 echo "new file context" > "$GITHUB_WORKSPACE/foo.txt"
+mkdir -p "$GITHUB_WORKSPACE/folder2"
 echo "new file context2" > "$GITHUB_WORKSPACE/folder2/foo2.txt"
